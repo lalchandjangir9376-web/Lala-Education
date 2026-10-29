@@ -1,0 +1,613 @@
+{
+  "users": [
+    {
+      "id": "admin_lala_default",
+      "name": "लालाजी खाती (व्यवस्थापक / Admin)",
+      "username": "admin_lala",
+      "email": "lalajikhatilalaji@gmail.com",
+      "passwordHash": "11591b94b3deb467f924b5440536c790c09e0c29824cecec5297ef7efdda6e8d",
+      "role": "admin",
+      "classGrade": "12",
+      "board": "RBSE",
+      "preferredLanguage": "hi",
+      "coins": 1000,
+      "welcomeBonusGiven": true,
+      "unlockedMaterials": [],
+      "unlockedTests": [],
+      "completedVideos": [],
+      "createdAt": "2026-10-29T03:04:31.305Z"
+    },
+    {
+      "id": "student_demo_1",
+      "name": "राहुल शर्मा (Rahul Sharma)",
+      "username": "rahul_rbse",
+      "email": "rahul@student.lala.edu",
+      "passwordHash": "6e71ddbcec4d7e1f3cfa59de898e28beed17b5a62ffaf1213ea1c1fdc41d3a5d",
+      "role": "student",
+      "classGrade": "10",
+      "board": "RBSE",
+      "preferredLanguage": "hi",
+      "coins": 150,
+      "welcomeBonusGiven": true,
+      "unlockedMaterials": [],
+      "unlockedTests": [],
+      "completedVideos": [
+        "vid_science_1"
+      ],
+      "createdAt": "2026-10-29T03:04:31.305Z"
+    },
+    {
+      "id": "user_016aa60f-a8f9-4535-b3b5-5281d04dd75a",
+      "name": "Manish Sharma",
+      "username": "manish99",
+      "email": "manish99@lala.edu",
+      "passwordHash": "9badbe35e005dc467540535e8a47755bc7170af74de6fb6aced34edde65753aa",
+      "role": "student",
+      "classGrade": "10",
+      "board": "RBSE",
+      "preferredLanguage": "hi",
+      "coins": 120,
+      "welcomeBonusGiven": true,
+      "unlockedMaterials": [],
+      "unlockedTests": [
+        "test_rbse12_phy_mock"
+      ],
+      "completedVideos": [
+        "vid_science_1"
+      ],
+      "createdAt": "2026-10-29T03:04:35.284Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_init_1",
+      "userId": "student_demo_1",
+      "amount": 100,
+      "type": "welcome_bonus",
+      "description": "स्वागत कॉइन बोनस (Registration Welcome Bonus)",
+      "timestamp": "2026-10-29T03:04:31.305Z"
+    },
+    {
+      "id": "tx_init_2",
+      "userId": "student_demo_1",
+      "amount": 50,
+      "type": "video_reward",
+      "description": "वीडियो कक्षा पूर्ण करने पर इनाम (Science Ch-1 Video Reward)",
+      "timestamp": "2026-10-29T03:04:31.305Z"
+    },
+    {
+      "id": "tx_02aede77-ba5b-48bd-b431-8e2a542d65e5",
+      "userId": "user_016aa60f-a8f9-4535-b3b5-5281d04dd75a",
+      "amount": 100,
+      "type": "welcome_bonus",
+      "description": "100 स्वागत कॉइन्स (Registration Welcome Bonus)",
+      "timestamp": "2026-10-29T03:04:35.284Z"
+    },
+    {
+      "id": "tx_52c90eb8-1695-4f34-aa1c-b95eb74ceb8a",
+      "userId": "user_016aa60f-a8f9-4535-b3b5-5281d04dd75a",
+      "amount": 50,
+      "type": "video_reward",
+      "description": "वीडियो कक्षा पूर्ण करने पर +50 कॉइन्स (कक्षा 10 विज्ञान अ-1: रासायनिक अभिक्रियाएँ एवं समीकरण (एक ही वीडियो में सम्पूर्ण पाठ))",
+      "timestamp": "2026-10-29T03:04:39.594Z"
+    },
+    {
+      "id": "tx_8e65af5e-b8a7-4152-80c2-3cb80690b659",
+      "userId": "user_016aa60f-a8f9-4535-b3b5-5281d04dd75a",
+      "amount": -30,
+      "type": "test_unlock",
+      "description": "ऑनलाइन टेस्ट अनलॉक: कक्षा 12 भौतिक विज्ञान - स्थिर वैद्युतिकी एवं धारा विद्युत टेस्ट",
+      "timestamp": "2026-10-29T03:04:53.870Z"
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat_512afe8b-3bf8-4895-85af-5bdce469458f",
+      "title": "Class 10 Board Special Notes",
+      "titleHi": "कक्षा 10 बोर्ड विशेष नोट्स 2027",
+      "description": "Uploaded by Lala Education Admin",
+      "descriptionHi": "Uploaded by Lala Education Admin",
+      "classGrade": "10",
+      "subject": "Science",
+      "subjectHi": "विज्ञान",
+      "chapter": "अध्याय 1",
+      "language": "hi",
+      "coinPrice": 0,
+      "fileUrl": "https://example.com/notes.pdf",
+      "pageCount": 10,
+      "createdAt": "2026-10-29T03:14:52.614Z"
+    },
+    {
+      "id": "mat_rbse10_sci_1",
+      "title": "Chemical Reactions and Equations - Complete Revision Notes",
+      "titleHi": "रासायनिक अभिक्रियाएँ एवं समीकरण - सम्पूर्ण हस्तलिखित नोट्स",
+      "description": "RBSE Class 10 Science Chapter 1 detailed handwritten notes with formulas and chemical equations.",
+      "descriptionHi": "आरबीएसई कक्षा 10 विज्ञान अध्याय 1 के संपूर्ण हस्तलिखित नोट्स, संतुलित समीकरण और महत्वपूर्ण परीक्षा प्रश्न।",
+      "classGrade": "10",
+      "subject": "Science",
+      "subjectHi": "विज्ञान",
+      "chapter": "अध्याय 1: रासायनिक अभिक्रियाएँ",
+      "language": "hi",
+      "coinPrice": 0,
+      "fileUrl": "https://example.com/rbse10-science-ch1.pdf",
+      "pageCount": 14,
+      "createdAt": "2026-10-15T10:00:00.000Z",
+      "contentSummary": "Complete coverage of Types of Reactions (Combination, Decomposition, Displacement, Redox), Rancidity, and Corrosion with RBSE board tips.",
+      "contentSummaryHi": "संयोजन, वियोजन, विस्थापन एवं रेडॉक्स अभिक्रियाएँ, विकृतगंधिता व संक्षारण का विस्तृत अध्ययन बोर्ड परीक्षा उपयोगी उदाहरणों सहित।"
+    },
+    {
+      "id": "mat_rbse10_math_1",
+      "title": "Real Numbers & Polynomials - Formula Sheet & Solved Examples",
+      "titleHi": "वास्तविक संख्याएँ एवं बहुपद - सूत्र बैंक और हल सहित उदाहरण",
+      "description": "RBSE Class 10 Mathematics Chapter 1 and 2 quick revision formulas and board questions.",
+      "descriptionHi": "आरबीएसई कक्षा 10 गणित के अध्याय 1 एवं 2 के सभी महत्वपूर्ण सूत्र, यूक्लिड विभाजन प्रमेयिका व बहुपद के शून्यक।",
+      "classGrade": "10",
+      "subject": "Mathematics",
+      "subjectHi": "गणित",
+      "chapter": "अध्याय 1 व 2: वास्तविक संख्याएँ",
+      "language": "hi",
+      "coinPrice": 20,
+      "fileUrl": "https://example.com/rbse10-math-formulas.pdf",
+      "pageCount": 18,
+      "createdAt": "2026-10-18T10:00:00.000Z",
+      "contentSummary": "Euclid division lemma, Fundamental theorem of arithmetic, irrationality proofs, zeroes of polynomials.",
+      "contentSummaryHi": "अपरिमेय संख्या सिद्ध करने की विधियाँ, अभाज्य गुणनखंड, बहुपदों के शून्यक एवं गुणांकों में संबंध।"
+    },
+    {
+      "id": "mat_rbse12_phy_1",
+      "title": "Electric Charges and Fields - Derivations & Board Notes",
+      "titleHi": "विद्युत आवेश तथा क्षेत्र - महत्वपूर्ण व्युत्पत्ति एवं नोट्स",
+      "description": "Complete notes for Class 12 Physics Chapter 1 covering Gauss Law and Dipole derivations.",
+      "descriptionHi": "कक्षा 12 भौतिक विज्ञान अध्याय 1 के गॉस के नियम, विद्युत द्विध्रुव व कूलॉम नियम की महत्वपूर्ण व्युत्पत्तियाँ।",
+      "classGrade": "12",
+      "subject": "Physics",
+      "subjectHi": "भौतिक विज्ञान",
+      "chapter": "अध्याय 1: विद्युत आवेश एवं क्षेत्र",
+      "language": "hi",
+      "coinPrice": 30,
+      "fileUrl": "https://example.com/rbse12-physics-notes.pdf",
+      "pageCount": 24,
+      "createdAt": "2026-10-20T10:00:00.000Z",
+      "contentSummary": "Coulombs law, electric field lines, electric dipole in uniform field, Gauss law applications with diagrams.",
+      "contentSummaryHi": "कूलॉम नियम, विद्युत क्षेत्र रेखाएँ, एकसमान क्षेत्र में द्विध्रुव पर बल आघूर्ण, गॉस के नियम के अनुप्रयोग।"
+    },
+    {
+      "id": "mat_rbse12_chem_1",
+      "title": "Solutions (विलयन) - Numerical Problems & Theory Notes",
+      "titleHi": "विलयन (Solutions) - आंकिक प्रश्न संग्रह एवं थ्योरी नोट्स",
+      "description": "NCERT & RBSE Class 12 Chemistry Chapter 2 notes with Henry Law and Colligative properties formulas.",
+      "descriptionHi": "कक्षा 12 रसायन विज्ञान अध्याय 2 हेनरी नियम, राउल्ट नियम एवं अणुसंख्य गुणधर्म के आंकिक प्रश्नों सहित।",
+      "classGrade": "12",
+      "subject": "Chemistry",
+      "subjectHi": "रसायन विज्ञान",
+      "chapter": "अध्याय 2: विलयन",
+      "language": "hi",
+      "coinPrice": 0,
+      "fileUrl": "https://example.com/rbse12-chemistry-solutions.pdf",
+      "pageCount": 16,
+      "createdAt": "2026-10-22T10:00:00.000Z",
+      "contentSummary": "Molarity, Molality, Raoult law, osmotic pressure, Van t Hoff factor with solved numerical problems.",
+      "contentSummaryHi": "मोलरता, मोललता, मोल अंश, राउल्ट का नियम, क्वथनांक उन्नयन व वांट हॉफ गुणांक।"
+    },
+    {
+      "id": "mat_rbse9_ss_1",
+      "title": "Rajasthan History and Culture (राजस्थान का इतिहास एवं संस्कृति)",
+      "titleHi": "राजस्थान का इतिहास, कला एवं संस्कृति - संक्षिप्त नोट्स",
+      "description": "RBSE Class 9 Social Science special Rajasthan section with forts, fairs and freedom struggle.",
+      "descriptionHi": "आरबीएसई कक्षा 9 सामाजिक विज्ञान राजस्थान के प्रमुख दुर्ग, लोक देवता, मेले एवं 1857 की क्रांति।",
+      "classGrade": "9",
+      "subject": "Social Science",
+      "subjectHi": "सामाजिक विज्ञान",
+      "chapter": "अध्याय 1: राजस्थान के ऐतिहासिक स्रोत",
+      "language": "hi",
+      "coinPrice": 0,
+      "fileUrl": "https://example.com/rbse9-rajasthan-heritage.pdf",
+      "pageCount": 12,
+      "createdAt": "2026-10-24T10:00:00.000Z",
+      "contentSummary": "Rajasthan forts (Chittorgarh, Mehrangarh, Kumbhalgarh), Folk deities, festivals, and culture.",
+      "contentSummaryHi": "राजस्थान के प्रसिद्ध किले, लोक देवता (रामदेवजी, तेजाजी, पाबूजी), तीज-त्यौहार एवं ऐतिहासिक स्रोत।"
+    },
+    {
+      "id": "mat_rbse11_bio_1",
+      "title": "Cell: The Unit of Life - Diagrammatic Revision Notes",
+      "titleHi": "कोशिका: जीवन की इकाई - सचित्र अध्ययन नोट्स",
+      "description": "Class 11 Biology Chapter 8 Cell Structure and Organelles with labeled diagrams.",
+      "descriptionHi": "कक्षा 11 जीव विज्ञान अध्याय 8 प्रोकैरियोटिक व यूकैरियोटिक कोशिका एवं कोशिकांगों का सचित्र वर्णन।",
+      "classGrade": "11",
+      "subject": "Biology",
+      "subjectHi": "जीव विज्ञान",
+      "chapter": "अध्याय 8: कोशिका संरचना",
+      "language": "hi",
+      "coinPrice": 25,
+      "fileUrl": "https://example.com/rbse11-biology-cell.pdf",
+      "pageCount": 20,
+      "createdAt": "2026-10-25T10:00:00.000Z",
+      "contentSummary": "Prokaryotic vs Eukaryotic cells, Mitochondria, Chloroplast, Nucleus structure and functions.",
+      "contentSummaryHi": "कोशिका सिद्धांत, माइटोकॉन्ड्रिया, हरित लवक, केंद्रक संरचना व कार्य।"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_science_1",
+      "title": "Class 10 Science Ch-1: Chemical Reactions in One Shot (RBSE/CBSE)",
+      "titleHi": "कक्षा 10 विज्ञान अ-1: रासायनिक अभिक्रियाएँ एवं समीकरण (एक ही वीडियो में सम्पूर्ण पाठ)",
+      "description": "Comprehensive lecture explaining all reactions with practical experiment animations.",
+      "descriptionHi": "राजस्थान बोर्ड कक्षा 10 विज्ञान का पहला पाठ आसान हिन्दी में समझें। पूरा पाठ देखकर 50 कॉइन्स प्राप्त करें।",
+      "classGrade": "10",
+      "subject": "Science",
+      "subjectHi": "विज्ञान",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+      "thumbnailUrl": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+      "duration": "42:15",
+      "coinReward": 50,
+      "createdAt": "2026-10-10T10:00:00.000Z"
+    },
+    {
+      "id": "vid_math_1",
+      "title": "Class 10 Maths: Trigonometry (त्रिकोणमिति का परिचय) - Easy Tricks",
+      "titleHi": "कक्षा 10 गणित: त्रिकोणमिति का परिचय - सूत्र याद करने की आसान ट्रिक",
+      "description": "Master trigonometric ratios, identities and board questions with Lalaji easy methods.",
+      "descriptionHi": "त्रिकोणमितीय अनुपातों की सारणी, सर्वसमिकाएँ और सिद्ध करने वाले प्रश्नों के आसान हल।",
+      "classGrade": "10",
+      "subject": "Mathematics",
+      "subjectHi": "गणित",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/L_LUpnjgPso",
+      "thumbnailUrl": "https://img.youtube.com/vi/L_LUpnjgPso/hqdefault.jpg",
+      "duration": "38:40",
+      "coinReward": 50,
+      "createdAt": "2026-10-12T10:00:00.000Z"
+    },
+    {
+      "id": "vid_physics_1",
+      "title": "Class 12 Physics: Electrostatics Top 5 Derivations for Board Exams",
+      "titleHi": "कक्षा 12 भौतिक विज्ञान: स्थिर वैद्युतिकी के शीर्ष 5 बोर्ड व्युत्पत्ति (Derivations)",
+      "description": "Gauss Law, Electric dipole axial and equatorial fields step by step derivation for 5-mark board questions.",
+      "descriptionHi": "बोर्ड परीक्षा में 5 अंक पक्के करने वाले गॉस प्रमेय एवं अक्षीय-निरक्षीय विद्युत क्षेत्र के व्युत्पत्ति।",
+      "classGrade": "12",
+      "subject": "Physics",
+      "subjectHi": "भौतिक विज्ञान",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/kJQP7kiw5Fk",
+      "thumbnailUrl": "https://img.youtube.com/vi/kJQP7kiw5Fk/hqdefault.jpg",
+      "duration": "51:10",
+      "coinReward": 50,
+      "createdAt": "2026-10-16T10:00:00.000Z"
+    },
+    {
+      "id": "vid_rajasthan_1",
+      "title": "Rajasthan GK & History: Forts of Rajasthan for Class 9 & 10 Students",
+      "titleHi": "राजस्थान की कला एवं संस्कृति: चित्तौड़गढ़, कुंभलगढ़ और मेहरानगढ़ दुर्ग दर्शन",
+      "description": "Visual study of world heritage hill forts of Rajasthan with historical facts and exam points.",
+      "descriptionHi": "राजस्थान के 6 प्रमुख पहाड़ी दुर्गों का सचित्र इतिहास और बोर्ड परीक्षा में पूछे जाने वाले तथ्य।",
+      "classGrade": "9",
+      "subject": "Social Science",
+      "subjectHi": "सामाजिक विज्ञान",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/fJ9rUzIMcZQ",
+      "thumbnailUrl": "https://img.youtube.com/vi/fJ9rUzIMcZQ/hqdefault.jpg",
+      "duration": "29:50",
+      "coinReward": 50,
+      "createdAt": "2026-10-21T10:00:00.000Z"
+    }
+  ],
+  "tests": [
+    {
+      "id": "test_eaf45e3c-61c3-4417-a2b6-04832f75e975",
+      "title": "Class 10th ",
+      "titleHi": "Carbon and its compoun ",
+      "classGrade": "10",
+      "subject": "Science",
+      "subjectHi": "विज्ञान",
+      "durationMinutes": 60,
+      "totalMarks": 4,
+      "coinPrice": 50,
+      "questions": [
+        {
+          "id": "q_1_fbb889",
+          "question": "What is the SI unit of electric current?",
+          "questionHi": "विद्युत धारा का SI मात्रक क्या है?",
+          "options": [
+            "Ampere (ऐम्पियर)",
+            "Volt (वोल्ट)",
+            "Ohm (ओम)",
+            "Watt (वाट)"
+          ],
+          "optionsHi": [
+            "Ampere (ऐम्पियर)",
+            "Volt (वोल्ट)",
+            "Ohm (ओम)",
+            "Watt (वाट)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Correct formula and board definition",
+          "explanationHi": "विद्युत धारा का SI मात्रक ऐम्पियर (A) होता है।",
+          "marks": 4
+        }
+      ],
+      "createdAt": "2026-10-29T13:28:25.242Z"
+    },
+    {
+      "id": "test_rbse10_sci_mock",
+      "title": "RBSE Class 10 Science - Model Paper Mock Test (अध्याय 1 से 3)",
+      "titleHi": "आरबीएसई कक्षा 10 विज्ञान - मॉडल पेपर मॉक टेस्ट (अध्याय 1 से 3)",
+      "classGrade": "10",
+      "subject": "Science",
+      "subjectHi": "विज्ञान",
+      "durationMinutes": 15,
+      "totalMarks": 20,
+      "coinPrice": 0,
+      "createdAt": "2026-10-19T10:00:00.000Z",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the chemical formula of quick lime?",
+          "questionHi": "बिना बुझे चूने (क्विक लाइम) का रासायनिक सूत्र क्या है?",
+          "options": [
+            "CaCO3",
+            "CaO",
+            "Ca(OH)2",
+            "CaCl2"
+          ],
+          "optionsHi": [
+            "CaCO3 (कैल्शियम कार्बोनेट)",
+            "CaO (कैल्शियम ऑक्साइड)",
+            "Ca(OH)2 (बुझा हुआ चूना)",
+            "CaCl2"
+          ],
+          "correctAnswer": 1,
+          "explanation": "CaO is Calcium Oxide, commonly known as quicklime.",
+          "explanationHi": "CaO को कैल्शियम ऑक्साइड या बिना बुझा चूना कहते हैं। जल से क्रिया पर यह Ca(OH)2 बनाता है।",
+          "marks": 4
+        },
+        {
+          "id": "q2",
+          "question": "Which gas is released when dilute hydrochloric acid is added to zinc granules?",
+          "questionHi": "दानेदार जस्ते पर तनु हाइड्रोक्लोरिक अम्ल डालने पर कौन-सी गैस उत्सर्जित होती है?",
+          "options": [
+            "Oxygen",
+            "Hydrogen",
+            "Chlorine",
+            "Carbon Dioxide"
+          ],
+          "optionsHi": [
+            "ऑक्सीजन गैस",
+            "हाइड्रोजन गैस (H2)",
+            "क्लोरीन गैस",
+            "कार्बन डाइऑक्साइड"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Zn + 2HCl -> ZnCl2 + H2 (Hydrogen gas burns with pop sound).",
+          "explanationHi": "Zn + 2HCl → ZnCl2 + H2↑ (हाइड्रोजन गैस फट-फट ध्वनि के साथ जलती है)।",
+          "marks": 4
+        },
+        {
+          "id": "q3",
+          "question": "What is the pH value of pure water at 25°C?",
+          "questionHi": "शुद्ध जल का 25°C पर pH मान कितना होता है?",
+          "options": [
+            "0",
+            "7",
+            "14",
+            "1"
+          ],
+          "optionsHi": [
+            "0 (शून्य)",
+            "7 (उदासीन)",
+            "14 (क्षारीय)",
+            "1 (अम्लीय)"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Pure water is neutral with a pH of 7.",
+          "explanationHi": "शुद्ध जल उदासीन होता है, इसलिए इसका pH मान 7 होता है।",
+          "marks": 4
+        },
+        {
+          "id": "q4",
+          "question": "Which acid is found in curd and sour milk?",
+          "questionHi": "दही तथा खट्टे दूध में कौन-सा प्राकृतिक अम्ल उपस्थित होता है?",
+          "options": [
+            "Acetic acid",
+            "Citric acid",
+            "Lactic acid",
+            "Tartaric acid"
+          ],
+          "optionsHi": [
+            "एसिटिक अम्ल",
+            "साइट्रिक अम्ल",
+            "लैक्टिक अम्ल",
+            "टार्टरिक अम्ल"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Curd contains lactic acid produced by Lactobacillus bacteria.",
+          "explanationHi": "दही में लैक्टोबैसिलस जीवाणु द्वारा लैक्टिक अम्ल उत्पन्न होता है।",
+          "marks": 4
+        },
+        {
+          "id": "q5",
+          "question": "What type of reaction is respiration?",
+          "questionHi": "श्वसन किस प्रकार की रासायनिक अभिक्रिया है?",
+          "options": [
+            "Endothermic",
+            "Exothermic",
+            "Decomposition",
+            "Reduction"
+          ],
+          "optionsHi": [
+            "ऊष्माशोषी अभिक्रिया",
+            "ऊष्माक्षेपी अभिक्रिया (Exothermic)",
+            "अपघटन अभिक्रिया",
+            "अपचयन"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Respiration releases energy as ATP, making it an exothermic reaction.",
+          "explanationHi": "श्वसन में ग्लूकोज के ऑक्सीकरण से ऊर्जा मुक्त होती है, अतः यह एक ऊष्माक्षेपी अभिक्रिया है।",
+          "marks": 4
+        }
+      ]
+    },
+    {
+      "id": "test_rbse12_phy_mock",
+      "title": "Class 12 Physics - Electrostatics & Current Electricity Test",
+      "titleHi": "कक्षा 12 भौतिक विज्ञान - स्थिर वैद्युतिकी एवं धारा विद्युत टेस्ट",
+      "classGrade": "12",
+      "subject": "Physics",
+      "subjectHi": "भौतिक विज्ञान",
+      "durationMinutes": 20,
+      "totalMarks": 20,
+      "coinPrice": 30,
+      "createdAt": "2026-10-21T10:00:00.000Z",
+      "questions": [
+        {
+          "id": "qp1",
+          "question": "What is the SI unit of electric flux?",
+          "questionHi": "विद्युत फ्लक्स का SI मात्रक क्या है?",
+          "options": [
+            "Volt / meter",
+            "Volt × meter",
+            "Newton / Coulomb",
+            "Weber"
+          ],
+          "optionsHi": [
+            "वोल्ट / मीटर",
+            "वोल्ट × मीटर (V·m)",
+            "न्यूटन / कूलॉम",
+            "वेबर"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Electric flux = E * A = (V/m) * m^2 = Volt-meter.",
+          "explanationHi": "विद्युत फ्लक्स Φ = E·A = (V/m) × m² = वोल्ट-मीटर होता है।",
+          "marks": 5
+        },
+        {
+          "id": "qp2",
+          "question": "What is the dimensional formula of capacitance (धारिता)?",
+          "questionHi": "विद्युत धारिता (Capacitance) का विमीय सूत्र क्या है?",
+          "options": [
+            "[M^-1 L^-2 T^4 A^2]",
+            "[M^1 L^2 T^-3 A^-1]",
+            "[M^1 L^2 T^4 A^2]",
+            "[M^-1 L^-1 T^2 A^1]"
+          ],
+          "optionsHi": [
+            "[M⁻¹ L⁻² T⁴ A²]",
+            "[M¹ L² T⁻³ A⁻¹]",
+            "[M¹ L² T⁴ A²]",
+            "[M⁻¹ L⁻¹ T² A¹]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "C = Q / V, leading to [M^-1 L^-2 T^4 A^2].",
+          "explanationHi": "C = Q / V, जहाँ V = W / Q, हल करने पर विमीय सूत्र [M⁻¹ L⁻² T⁴ A²] प्राप्त होता है।",
+          "marks": 5
+        },
+        {
+          "id": "qp3",
+          "question": "Which conservation law is Kirchhoff’s First Law (Junction Rule) based on?",
+          "questionHi": "किरचॉफ का प्रथम नियम (संधि नियम) किस संरक्षण नियम पर आधारित है?",
+          "options": [
+            "Conservation of Energy",
+            "Conservation of Charge",
+            "Conservation of Momentum",
+            "Conservation of Mass"
+          ],
+          "optionsHi": [
+            "ऊर्जा संरक्षण",
+            "आवेश संरक्षण (Conservation of Charge)",
+            "संवेग संरक्षण",
+            "द्रव्यमान संरक्षण"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Kirchhoff’s junction law is based on charge conservation.",
+          "explanationHi": "संधि पर आने वाली और जाने वाली धाराओं का योग शून्य होता है, जो आवेश संरक्षण पर आधारित है।",
+          "marks": 5
+        },
+        {
+          "id": "qp4",
+          "question": "If the radius of a wire is halved, what happens to its resistance?",
+          "questionHi": "यदि किसी चालक तार की त्रिज्या आधी कर दी जाए, तो उसका प्रतिरोध कितना हो जाएगा?",
+          "options": [
+            "Halved",
+            "Doubled",
+            "4 times",
+            "16 times"
+          ],
+          "optionsHi": [
+            "आधा हो जाएगा",
+            "दोगुना हो जाएगा",
+            "4 गुना हो जाएगा",
+            "16 गुना हो जाएगा (16 times)"
+          ],
+          "correctAnswer": 3,
+          "explanation": "R is inversely proportional to Area = pi * r^2. If r becomes r/2, Area becomes 1/4, so R becomes 16x when stretched.",
+          "explanationHi": "तार खींचने पर आयतन नियत रहता है, r आधी होने पर क्षेत्रफल 1/4 और लम्बाई 4 गुना होगी, जिससे R 16 गुना हो जाता है।",
+          "marks": 5
+        }
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "id": "att_82a186ce-45f6-42cc-be75-fb1d589980b9",
+      "userId": "user_016aa60f-a8f9-4535-b3b5-5281d04dd75a",
+      "testId": "test_rbse10_sci_mock",
+      "testTitle": "आरबीएसई कक्षा 10 विज्ञान - मॉडल पेपर मॉक टेस्ट (अध्याय 1 से 3)",
+      "score": 20,
+      "maxScore": 20,
+      "percentage": 100,
+      "answers": {
+        "q1": 1,
+        "q2": 1,
+        "q3": 1,
+        "q4": 2,
+        "q5": 1
+      },
+      "submittedAt": "2026-10-29T03:04:49.583Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann_b8d3bdc0-fbf9-4426-9bc2-c4b51ab26b85",
+      "title": "Today test",
+      "titleHi": "Today test",
+      "content": "Class 10th \nKal kisi ka bhi test nhi hai esliye aap achese padho or aage badho ",
+      "contentHi": "Class 10th \nKal kisi ka bhi test nhi hai esliye aap achese padho or aage badho ",
+      "category": "notice",
+      "date": "2026-10-29",
+      "isImportant": true
+    },
+    {
+      "id": "ann_1",
+      "title": "RBSE Board Exam 2027 Schedule & Model Papers Released",
+      "titleHi": "आरबीएसई बोर्ड परीक्षा 2027 समय-सारणी एवं आधिकारिक मॉडल पेपर्स जारी",
+      "content": "Rajasthan Board of Secondary Education (Ajmer) has released the model question papers for Classes 10 and 12. Students can practice online tests in this app to evaluate their preparation.",
+      "contentHi": "माध्यमिक शिक्षा बोर्ड राजस्थान (अजमेर) द्वारा कक्षा 10वीं और 12वीं के मॉडल पेपर्स जारी कर दिए गए हैं। विद्यार्थी अपनी तैयारी के लिए ऐप के टेस्ट सेक्शन में मॉक टेस्ट जरूर दें।",
+      "category": "exam",
+      "date": "2026-10-26",
+      "isImportant": true
+    },
+    {
+      "id": "ann_2",
+      "title": "Free Rajasthan Handwritten Notes Drive by Lala Education",
+      "titleHi": "लाला एजुकेशन द्वारा राजस्थान के विद्यार्थियों को निःशुल्क हस्तलिखित नोट्स वितरण",
+      "content": "All class 9, 10, 11, and 12 students can download curated notes. Earn 50 coins by watching video lectures and use coins to unlock premium question banks.",
+      "contentHi": "राजस्थान के सभी विद्यार्थियों के लिए उच्च गुणवत्ता वाले नोट्स उपलब्ध हैं। वीडियो देखकर 50 कॉइन्स प्राप्त करें और स्पेशल टेस्ट सीरीज अनलॉक करें।",
+      "category": "materials",
+      "date": "2026-10-24",
+      "isImportant": true
+    },
+    {
+      "id": "ann_3",
+      "title": "Rajasthan Post-Matric Scholarship Portal Now Active",
+      "titleHi": "राजस्थान उत्तर मैट्रिक छात्रवृत्ति योजना आवेदन पोर्टल प्रारंभ",
+      "content": "Eligible SC/ST/OBC/EWS students can apply for post-matric scholarships. Keep your Jan Aadhaar and Marksheet ready.",
+      "contentHi": "कक्षा 11 व 12 के पात्र विद्यार्थी जन आधार कार्ड एवं पिछली कक्षा की अंकतालिका के साथ छात्रवृत्ति पोर्टल पर आवेदन कर सकते हैं।",
+      "category": "scholarship",
+      "date": "2026-10-20",
+      "isImportant": false
+    }
+  ],
+  "sessions": {
+    "ba7c9db003b6ca9a70d67ea1b1fcf5c5d49a24be893a2a96c6fb699d41036fec": "student_demo_1",
+    "b17f522839e1cf04bd00109d77456c69535ea9ab11f844717d4437eef98b15b8": "admin_lala_default",
+    "74dc22d908234e7290a98a9099de93261ff743a78fc899195949ed7da7d8bbdf": "admin_lala_default",
+    "2c6c01f581662e5d50a07fc591578b6ee4bd360900db13d314d64ffb38b17aab": "admin_lala_default",
+    "c24ae20ece5d28e659d44c9b0f9fc5868a312b2e07f1217f681ac185683ac93a": "admin_lala_default"
+  }
+}
